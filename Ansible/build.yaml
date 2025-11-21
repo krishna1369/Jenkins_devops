@@ -24,4 +24,4 @@
    - name: running script to make build
      ansible.builtin.shell: 
        cmd: ./build.sh
-       chdir: /home/ubuntu/Jenkins_devops/Day6/Bash
+       chdir: /home/ubuntu/Jenkins_devops/Bash
