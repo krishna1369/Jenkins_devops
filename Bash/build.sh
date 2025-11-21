@@ -5,6 +5,7 @@ sudo mkdir gold
 cd gold/
 sudo git clone https://github.com/krishna1369/Gold_Site_Ecommerce.git
 cd Gold_Site_Ecommerce/
+echo $DOCKER_PASSWORD | docker login -u krishna1369 --password-stdin
 sudo docker build -t react-image -f golddockerfile .
 sudo docker tag react-image:latest krishna1369/react-repo:latest ##make sure you did docker login
 sudo docker push krishna1369/react-repo:latest
