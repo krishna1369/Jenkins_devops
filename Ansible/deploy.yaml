@@ -19,9 +19,9 @@
    - name: giving ownership to build.sh and giving excecuting permissions to deploy.sh
      ansible.builtin.shell:
        cmd: sudo chown ubuntu deploy.sh && sudo chmod 744 deploy.sh
-       chdir: bashscripts/Day5/Bash
+       chdir: bashscripts/Jenkins_devops/Bash
 
    - name: running script to make build
      ansible.builtin.shell: 
        cmd: ./deploy.sh
-       chdir: bashscripts/Day5/Bash
+       chdir: bashscripts/Jenkins_devops/Bash
