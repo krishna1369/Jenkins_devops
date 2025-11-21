@@ -2,7 +2,7 @@ export const sliderItems = [
   {
     id: "1",
     img: "assets/braclet/main.jfif",
-    title: "Build and Deployment has been successfully",
+    title: "Build and Deployment has been successful by Jinkins",
     desc: "This is now in new commit",
     bg: "green",
   },
